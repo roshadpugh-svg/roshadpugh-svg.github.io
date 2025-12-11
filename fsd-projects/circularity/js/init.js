@@ -29,10 +29,10 @@ var init = function (window) {
 
             // create the circle 
             // randomCircleInArea(area, randomizeAlpha, addCross, borderColor, borderThickness, randomRadialProps)
-            circle = draw.randomCircleInArea(canvas, true, true, '#f717e8ff', 22);
+            circle = draw.randomCircleInArea(canvas, true, true, '#5e1fc3ff', 22);
 
             // set motion properties
-             physikz.addRandomVelocity(circle, canvas, 25, 25);
+             physikz.addRandomVelocity(circle, canvas, 45, 25);
 
             // add the circle to circles array, add to view
             circles.push(circle);
