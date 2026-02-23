@@ -396,6 +396,19 @@ After completing this TODO, your `<nav>` section should look like this:
 ```html
 <nav>
   <h1>Your Name's Amazing Website</h1>
+  <h2>Advanced Projects</h2>
+<ul id ="portfolio">
+    <li><a href="asd-projects/data-shapes"> Data Shapes: Iteration practice with patterns</a></li>
+    <li><a href="asd-projects/debugging-exercise"> Debugging Exercise: A debugging exercise</a></li>
+    <li><a href="asd-projects/snake">Snake: Feed the snake or be fed upon</a></li>
+    <li><a href="asd-projects/walker">Walker: Practice user input by animating walking boxes</a></li>
+    <li><a href="asd-projects/image-filtering">Image Filtering: Filter images using loops</a></li>
+    <li><a href="asd-projects/sorting">Sorting Exercise: An exercise on sorting algorithms</a></li>
+</ul>
+<h2>Mini Projects</h2>
+<ul id ="portfolio">
+    <li><a href="asd-projects/dice-app"> Dice App: A simple, interactive dice app built using jQuery</a></li>
+</ul>
   <ul id="nav-ul">
     <li class="nav-li">
       <a href="index.html">Home</a>

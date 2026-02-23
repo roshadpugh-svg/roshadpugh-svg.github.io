@@ -27,7 +27,7 @@ var init = function (window) {
         // TODO 2 : Create a function that draws a circle 
         var drawCircle = function() {
 
-            // create the circle 
+            // create thez circle 
             // randomCircleInArea(area, randomizeAlpha, addCross, borderColor, borderThickness, randomRadialProps)
             circle = draw.randomCircleInArea(canvas, true, true, '#5e1fc3ff', 22);
 
